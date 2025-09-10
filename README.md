@@ -40,9 +40,6 @@ CloudWatch Logs > For debugging and monitoring
 
 # Architecture Diagram
 
-( *To be added: `architecture.png` or Draw.io link here*)
+![Architecture Diagram](architecture-invoice-auto-extractor.png)
 
-Upload Invoice → S3 Bucket → Lambda Triggered →
-→ Textract Analyze Expense →
-→ Extract GSTIN, Date, Amount →
-→ SNS Notification
+Upload Invoice → S3 Bucket → Lambda Triggered → Textract Analyze Expense → Extract GSTIN, Date, Amount → SNS Notification
